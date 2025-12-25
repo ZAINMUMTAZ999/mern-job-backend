@@ -1,5 +1,7 @@
 [build]
-functions="backend/netlify/functions"
+  functions = "netlify/functions"
+  publish = "dist"
+
 [[redirects]]
   force = true
   from = "/api/*"
