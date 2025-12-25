@@ -44,7 +44,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", registerRouter);
 app.use("/api", loginRouter);
-app.get("/", (_req, res:Response) => {
+app.get("/data", (_req, res:Response) => {
   res.send("✅ Backend job  running successfully  !");
 });
 // app.listen(8000, () => {
