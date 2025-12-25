@@ -1,9 +1,11 @@
 [build]
   functions = "netlify/functions"
-  publish = "dist"
+  publish = "."
+ 
+  command = "echo 'Building Backend...'" 
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/api/:splat"
-  status = 200
   force = true
+  from = "/api/*"
+  status = 200
+  to = "/.netlify/functions/api/:splat"
