@@ -15,7 +15,7 @@
     
     // Database connection
     mongoose
-      .connect(process.env.MONGODB_CONNECTION as string)
+      .connect("mongodb+srv://mzainmumtaz99:K7fchZl8GWeW1188@cluster0.pixjhjf.mongodb.net/")
       .then(() => console.log("database connected successfully"));
     
     // Middleware
