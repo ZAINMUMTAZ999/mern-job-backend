@@ -15,7 +15,7 @@
     
     // Database connection
     mongoose
-      .connect("mongodb+srv://mzainmumtaz99:K7fchZl8GWeW1188@cluster0.pixjhjf.mongodb.net/")
+      .connect("mongodb+srv://cyberoid:123456123456@cluster0.pixjhjf.mongodb.net/?appName=Cluster0")
       .then(() => console.log("database connected successfully"));
     
     // Middleware
